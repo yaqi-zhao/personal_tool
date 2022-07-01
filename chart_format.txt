@@ -1,0 +1,27 @@
+INST_RETIRED.ANY
+CPU_CLK_UNHALTED.THREAD
+CPU_CLK_UNHALTED.REF_TSC
+
+metric_CPU utilization %
+metric_CPU utilization% in kernel mode
+metric_CPU operating frequency (in GHz)
+
+metric_CPI
+metric_kernel_CPI
+
+metric_L2 MPI (includes code+data+rfo w/ prefetches)
+
+metric_LLC MPI (includes code+data+rfo w/ prefetches)
+metric_Average LLC demand data read miss latency (in ns)
+
+metric_NUMA %_Reads addressed to local DRAM
+metric_NUMA %_Reads addressed to remote DRAM
+
+metric_memory bandwidth read (MB/sec)
+metric_memory bandwidth write (MB/sec)
+metric_memory bandwidth total (MB/sec)
+
+metric_3DXP_memory bandwidth read (MB/sec)
+metric_3DXP_memory bandwidth write (MB/sec)
+metric_3DXP_memory bandwidth total (MB/sec)
+metric_3DXP memory RPQ read latency (ns)
